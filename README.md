@@ -11,6 +11,13 @@
 #disable dock
 
     gnome-extensions disable ubuntu-dock@ubuntu.com
+    
+#set xfce4-terminal to default terminal
+ 
+    sudo apt install xfce4-terminal
+    sudo update-alternatives --config x-terminal-emulator
+    
+  - select number related to xfce4
   
 #install zsh shell and ohmyzsh
 - https://www.unixmen.com/install-oh-zsh-ubuntu-arch-linux-fedora/
