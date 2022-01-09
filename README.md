@@ -8,5 +8,9 @@
   + Hide Activities Button 
   + Hide Top Bar
   
+#disable dock
+
+    gnome-extensions disable ubuntu-dock@ubuntu.com
+  
 #install zsh shell and ohmyzsh
 - https://www.unixmen.com/install-oh-zsh-ubuntu-arch-linux-fedora/
