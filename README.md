@@ -21,3 +21,20 @@
   
 #install zsh shell and ohmyzsh
 - https://www.unixmen.com/install-oh-zsh-ubuntu-arch-linux-fedora/
+
++ change theme: find and edit line ZSH_THEME="YOUR_THEME" in .zshrc file, with YOUR_THEME refer here https://github.com/ohmyzsh/ohmyzsh/wiki/themes
+
+      ZSH_THEME="YOUR_THEME"
+      
+- install plugin autosuggestion, syntax highlighting, fzf:
+
+        git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+
+        git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+        
+        git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+        ~/.fzf/install
+  
+- add plugin: find and edit again for the same bellow in .zshrc file
+  
+        plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
