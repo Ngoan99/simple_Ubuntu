@@ -38,3 +38,8 @@
 - add plugin: find and edit again for the same bellow in .zshrc file
   
         plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+        source .zshrc
+        
+#install Ranger
+
+    sudo apt install ranger
